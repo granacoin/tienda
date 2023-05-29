@@ -17,7 +17,7 @@ export default function Buy() {
         data={data}
         isLoading={isLoading}
         emptyText={
-          "Looks like there are no NFTs in this collection. Did you import your contract on the thirdweb dashboard? https://thirdweb.com/dashboard"
+          "Parece que no hay NFT en esta colección. ¿Importó su contrato en el panel https://thirdweb.com/dashboard"
         }
       />
     </Container>
