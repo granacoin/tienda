@@ -25,7 +25,7 @@ export default function Sell() {
       <h1>Sell NFTs</h1>
       {!selectedNft ? (
         <>
-          <p>Select which NFT you&rsquo;d like to sell below.</p>
+          <p>Seleccione el NFT que va Vender en GRACO NFT</p>
           <NFTGrid
             data={data}
             isLoading={isLoading}
@@ -57,7 +57,7 @@ export default function Sell() {
           </div>
 
           <div className={tokenPageStyles.listingContainer}>
-            <p>You&rsquo;re about to list the following item for sale.</p>
+            <p>Esta a punto de poner en venta el siguiente articulo.</p>
             <h1 className={tokenPageStyles.title}>
               {selectedNft.metadata.name}
             </h1>
