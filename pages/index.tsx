@@ -41,18 +41,17 @@ const Home: NextPage = () => {
                   NFT Marketplaces
                 </span>
                 <br />
-                faster than ever.
+                Productos Exclusivos.
               </h1>
               <p className={styles.heroSubtitle}>
                 <Link
                   className={styles.link}
-                  href="https://thirdweb.com"
+                  href="https://granacoin.com.co/"
                   target="_blank"
                 >
-                  thirdweb
+                  Granacoin
                 </Link>{" "}
-                gives you the tools you need to create audited, performant, and
-                flexible NFT marketplaces in <b>hours</b>, <i>not months</i>.
+                proporcionar una solución efectiva y segura para adquirir sus productos.
               </p>
 
               <div className={styles.heroCtaContainer}>
