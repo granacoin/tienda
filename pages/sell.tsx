@@ -22,7 +22,7 @@ export default function Sell() {
 
   return (
     <Container maxWidth="lg">
-      <h1>Sell NFTs</h1>
+      <h1>Vender NFTs</h1>
       {!selectedNft ? (
         <>
           <p>Seleccione el NFT que va Vender en GRACO NFT</p>
@@ -33,7 +33,7 @@ export default function Sell() {
               setSelectedNft(nft);
             }}
             emptyText={
-              "Looks like you don't own any NFTs in this collection. Head to the buy page to buy some!"
+              "Parece que no posee ningún NFT en esta colección. ¡Dirígete a la página de compra para comprar algunos!"
             }
           />
         </>
