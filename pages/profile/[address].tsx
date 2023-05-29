@@ -108,7 +108,7 @@ export default function ProfilePage() {
         <NFTGrid
           data={ownedNfts}
           isLoading={loadingOwnedNfts}
-          emptyText="Looks like you don't have any NFTs from this collection. Head to the buy page to buy some!"
+          emptyText="Parece que no tienes ningún NFT de esta colección. ¡Dirígete a la página de compra para comprar algunos!"
         />
       </div>
 
@@ -120,7 +120,7 @@ export default function ProfilePage() {
         {loadingDirects ? (
           <p>Loading...</p>
         ) : directListings && directListings.length === 0 ? (
-          <p>Nothing for sale yet! Head to the sell tab to list an NFT.</p>
+          <p>¡Nada a la venta todavía! Dirígete a la pestaña de venta para enumerar un NFT.</p>
         ) : (
           directListings?.map((listing) => (
             <ListingWrapper listing={listing} key={listing.id} />
@@ -136,7 +136,7 @@ export default function ProfilePage() {
         {loadingAuctions ? (
           <p>Loading...</p>
         ) : auctionListings && auctionListings.length === 0 ? (
-          <p>Nothing for sale yet! Head to the sell tab to list an NFT.</p>
+          <p>¡Nada a la venta todavía! Dirígete a la pestaña de venta para enumerar un NFT.</p>
         ) : (
           auctionListings?.map((listing) => (
             <ListingWrapper listing={listing} key={listing.id} />
