@@ -26,7 +26,7 @@ const Home: NextPage = () => {
           </div>
           <div className={styles.heroAssetFrame}>
             <Image
-              src="/hero-asset.png"
+              src="/hero-asset1.png"
               width={860}
               height={540}
               alt="Hero asset, NFT marketplace"
@@ -38,7 +38,7 @@ const Home: NextPage = () => {
             <div className={styles.heroBody}>
               <h1 className={styles.heroTitle}>
                 <span className={styles.heroTitleGradient}>
-                  Build NFT Marketplaces
+                  NFT Marketplaces
                 </span>
                 <br />
                 faster than ever.
