@@ -56,14 +56,14 @@ const Home: NextPage = () => {
 
               <div className={styles.heroCtaContainer}>
                 <Link className={styles.heroCta} href="/buy">
-                  Get Started
+                  Adquirir NFT
                 </Link>
                 <Link
                   className={styles.secondaryCta}
-                  href="https://github.com/thirdweb-example/marketplace-v3"
+                  href="https://granacoin.com.co/"
                   target="_blank"
                 >
-                  GitHub
+                  Granacoin
                 </Link>
               </div>
             </div>
