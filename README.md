@@ -73,3 +73,9 @@ export const ETHERSCAN_URL = "https://mumbai.polygonscan.com";
 ## Join our Discord!
 
 For any questions, suggestions, join our discord at [https://discord.gg/thirdweb](https://discord.gg/thirdweb).
+
+  npm run dev
+    Starts the development server.
+
+  npm run build
+    Builds the app for production.
